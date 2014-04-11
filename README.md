@@ -20,6 +20,3 @@ Step 3 – Create a Test Page
 
 Register the control at the top using whatever path and naming convention you’ve chosen.
 
-<%@ Register Src="~/lab/maskemail/EmailMask.ascx" TagName="EmailMask" TagPrefix="dc" %>
-Inside the ASP.NET page and control is used like below.
-
