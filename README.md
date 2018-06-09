@@ -2,11 +2,12 @@
 
 This project is an ASP.NET control for masking email addresses using ASCII code.
 
-In the article [Masking Your Email Address](https://criticalmas.com/2014/04/masking-email-address/), I went over why you would want to hide your email address inside the source code of an HTML document, but still make it visible to the human readers of that page. Encapsulating the code into a single .NET user control is ideal for protecting email addresses for ASP.NET sites.
+In the article [Masking Your Email Address](https://criticalmas.org/2014/04/masking-email-address/), I went over why you would want to hide your email address inside the source code of an HTML document, but still make it visible to the human readers of that page. Encapsulating the code into a single .NET user control is ideal for protecting email addresses for ASP.NET sites.
 
 ## Step 1 – Create a Web User Control
 
 Add an asp:Literal control to that page.
+
 ```asp
 <asp:Literal ID="ltEmail" runat="server" />
 ```
